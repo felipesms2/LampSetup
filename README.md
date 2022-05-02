@@ -7,7 +7,6 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   apt install sqlite3 apache2 php phpunit php-sqlite3 php-interbase php-odbc php-mysql php-mssql php-curl mariadb-server openssh-server composer git nodejs npm nano neovim vim lynx -y 
 
 
-CREATE USER 'felipe'@'%' IDENTIFIED BY 'S3nh4c0mPalavr45qualq3r';
-GRANT ALL PRIVILEGES ON *.* TO 'felipe'@'%' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'superuser'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 EXIT;
