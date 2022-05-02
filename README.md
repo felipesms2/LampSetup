@@ -1,10 +1,12 @@
 # LampSetup
 For Docker and Virtual Machines even local runtime enviroment that need php backend
 
+  apt update && apt upgrade -y && apt install openssh iproute2 tor -y && sshd <br>      
+
   sudo su <br>
   apt update <br>
   apt upgrade -y <br>
-  apt install sqlite3 apache2 php phpunit php-sqlite3 php-interbase php-odbc php-mysql php-mssql php-curl mariadb-server openssh-server composer git nodejs npm nano neovim vim lynx -y   
+  apt install sqlite3 apache2 php phpunit php-sqlite3 php-interbase php-odbc php-mysql php-mssql php-curl mariadb-server openssh-server composer git nodejs npm nano neovim vim lynx -y <br>  
   
 nano /etc/apache2/ports.conf
   
