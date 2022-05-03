@@ -14,6 +14,6 @@ service mysql enable && service mysql start && service apache2 start
  
 CREATE USER 'superuser'@'%' IDENTIFIED BY 'S3nh4c0mPalavr45qualq3r';
 
-GRANT ALL PRIVILEGES ON *.* TO 'S3nh4c0mPalavr45qualq3r'@'%' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'superuser'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 EXIT;
