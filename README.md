@@ -17,3 +17,5 @@ CREATE USER 'superuser'@'%' IDENTIFIED BY 'S3nh4c0mPalavr45qualq3r';
 GRANT ALL PRIVILEGES ON *.* TO 'superuser'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 EXIT;
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('');
