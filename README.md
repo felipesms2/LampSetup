@@ -21,3 +21,17 @@ FLUSH PRIVILEGES;
 EXIT;
 
 SET PASSWORD FOR 'root'@'localhost' = PASSWORD('');
+
+# Docker Templates
+
+ 
+ 
+touch Dockerfile
+FROM debian
+RUN apt update
+RUN apt upgrade -y
+RUN apt install sqlite3 apache2 php phpunit php-gd php-sqlite3 php-bcmath php-redis php-gmp php-interbase php-odbc php-mysql php-curl mariadb-server composer git nodejs npm php-zip -y
+RUN a2enmod rewrite 
+RUN command
+LABEL manteiner '2fsoft test'
+
