@@ -30,8 +30,7 @@ touch Dockerfile <br>
 FROM debian <br>
 RUN apt update <br>
 RUN apt upgrade -y <br>
-RUN apt install sqlite3 apache2 php phpunit php-gd php-sqlite3 php-bcmath php-redis php-gmp php-interbase php-odbc php-mysql php-curl mariadb-server composer git nodejs npm php-zip -y
+RUN apt install nmap sqlite3 apache2 php phpunit php-gd php-sqlite3 php-bcmath php-redis php-gmp php-interbase php-odbc php-mysql php-curl mariadb-server composer git nodejs npm php-zip -y <br>
 RUN a2enmod rewrite <br>
-RUN command <br>
 LABEL manteiner 'Tester'
 
