@@ -9,6 +9,31 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   apt install sqlite3 apache2 php phpunit php-gd php-sqlite3 php-bcmath php-redis php-gmp  php-interbase php-odbc php-mysql php-curl mariadb-server openssh-server composer git nodejs npm nano neovim vim lynx php-zip -y <br> 
  a2enmod rewrite <br>
  systemctl restart apache2 <br>
+ 
+ ## Eit the following files with sudo permission
+ 
+ - nano /etc/apache2/envvars
+ - in the file envvars change the user and group user from www-data to current user
+ ex:
+    export APACHE_RUN_USER={$USER}
+    export APACHE_RUN_GROUP={$USer}
+ 
+ ## Change execution directory as example
+ 
+ - Create apache folder on ~ (home feolder)
+ -nano /etc/apache2/sites-enabled/000-default.conf 
+ -         DocumentRoot /home/{$USER}/apache
+
+        <Directory /home/{$USER}/apache/>
+        Options +Indexes +FollowSymLinks
+        AllowOverride all
+        Require all granted
+        </Directory>
+
+ 
+ 
+ # To change permissions
+ 
  chown -R $USER:$USER /var/www/html/
 nano /etc/apache2/ports.conf
   
