@@ -43,3 +43,8 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 
+# Php my admin
+
+wget https://github.com/felipesms2/LampSetup/raw/master/applications/phpMyAdmin-5.2.1-all-languages.zip 
+
+
