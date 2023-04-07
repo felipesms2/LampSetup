@@ -47,4 +47,11 @@ sudo mv composer.phar /usr/local/bin/composer
 
 wget https://github.com/felipesms2/LampSetup/raw/master/applications/pma.zip
 
+# Allow MariaDb External Connect
+
+Article https://webdock.io/en/docs/how-guides/database-guides/how-enable-remote-access-your-mariadbmysql-database
+
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+bind to 0.0.0.0
+
 
