@@ -6,7 +6,30 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   sudo su <br>
   apt update <br>
   apt upgrade -y <br>
-  apt install curl wget sudo sqlite3 apache2 php phpunit php-gd php-sqlite3 php-bcmath php-redis php-gmp  php-interbase php-odbc php-mysql php-curl mariadb-server ssh composer git nodejs npm nano php-zip iproute2 -y <br> 
+  apt install \ <br>
+  sudo sqlite3 \ <br>
+  sqlite3 \ <br>
+  apache2 \ <br>
+  php \ <br>
+  phpunit \ <br>
+  php-gd \ <br>
+  php-sqlite3 \ <br>
+  php-bcmath \ <br>
+  php-redis \ <br>
+  php-gmp \ <br>
+  php-interbase \ <br>
+  php-odbc \ <br>
+  php-mysql \ <br>
+  php-curl \ <br>
+  mariadb-server \ <br>
+  ssh \ <br>
+  composer \ <br>
+  git \ <br>
+  nodejs \ <br>
+  npm \ <br>
+  nano \ <br>
+  php-zip \ <br>
+  iproute2 -y <br> 
  a2enmod rewrite <br>
  systemctl restart apache2 <br>
  chown -R $USER:$USER /var/www/html/
