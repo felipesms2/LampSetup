@@ -29,7 +29,7 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   npm \ <br>
   nano \ <br>
   php-zip \ <br>
-  python3-pip <br> 
+  python3-pip \ <br> 
   iproute2 -y <br> 
  a2enmod rewrite <br>
  systemctl restart apache2 <br>
