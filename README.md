@@ -33,6 +33,7 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   iproute2 -y <br> 
  a2enmod rewrite <br>
  systemctl restart apache2 <br>
+ 
  chown -R $USER:$USER /var/www/html/
 nano /etc/apache2/ports.conf
   
