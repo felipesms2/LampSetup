@@ -11,6 +11,7 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   sqlite3 \ <br>
   apache2 \ <br>
   php \ <br>
+  php-mongodb \ <br>
   phpunit \ <br>
   php-gd \ <br>
   php-sqlite3 \ <br>
