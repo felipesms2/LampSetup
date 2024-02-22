@@ -7,7 +7,7 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   apt update <br>
   apt upgrade -y <br>
   apt install \ <br>
-  sudo sqlite3 \ <br>
+  sudo sqlite3 wget curl \ <br>
   sqlite3 \ <br>
   apache2 \ <br>
   php \ <br>
