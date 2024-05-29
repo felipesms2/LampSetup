@@ -85,11 +85,6 @@ bind to 0.0.0.0
 
 # full permission www user
 
-sudo chown -R www-data:www-data /var/www/html && \
-sudo chmod -R 775 /var/www/html && \
-sudo chmod g+s /var/www/html && \
-sudo apt-get install -y acl && \
-sudo setfacl -d -m u:www-data:rwx /var/www/html && \
-sudo setfacl -d -m g:www-data:rwx /var/www/html
+sudo mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED BY '';" && sudo mysql -u root -e "FLUSH PRIVILEGES;"
 
 
