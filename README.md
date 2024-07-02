@@ -24,6 +24,7 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   php-curl \ <br>
   php-dom \ <br>
   php-initl \ <br>
+  php-mbstring \ <br>
   mariadb-server \ <br>
   ssh \ <br>
   composer \ <br>
