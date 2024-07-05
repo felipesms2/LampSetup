@@ -33,6 +33,9 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   npm \ <br>
   nano \ <br>
   php-zip \ <br>
+  php-pear \ <br>
+  php-dev \ <br>
+
   python3-pip \ <br> 
   python3-tk \ <br>
   python3-dev \ <br>
