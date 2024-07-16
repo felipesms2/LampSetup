@@ -39,6 +39,7 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   python3-pip \ <br> 
   python3-tk \ <br>
   python3-dev \ <br>
+  net-tools \ <br>
   iproute2 -y <br> 
  a2enmod rewrite <br>
  systemctl restart apache2 <br>
