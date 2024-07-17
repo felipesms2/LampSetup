@@ -40,8 +40,9 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   python3-tk \ <br>
   python3-dev \ <br>
   net-tools \ <br>
-  iproute2 -y <br> 
- a2enmod rewrite <br>
+  iproute2 -y  ; <br> \
+ a2enmod rewrite ; <br> \
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash ; <br> \
  systemctl restart apache2 <br>
  
  chown -R $USER:$USER /var/www/html/
