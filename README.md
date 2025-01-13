@@ -22,7 +22,7 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   php-odbc \ <br>
   php-mysql \ <br>
   php-curl \ <br>
-  php-dom \ <br>
+  php-xml \ <br>
   php-intl \ <br>
   php-mbstring \ <br>
   mariadb-server \ <br>
