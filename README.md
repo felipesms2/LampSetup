@@ -35,6 +35,8 @@ For Docker and Virtual Machines even local runtime enviroment that need php back
   php-zip \ <br>
   php-pear \ <br>
   php-dev \ <br>
+  nmap \ <br>
+  neofetch \ <br>
 
   python3-pip \ <br> 
   python3-tk \ <br>
